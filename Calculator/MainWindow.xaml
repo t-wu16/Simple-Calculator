@@ -1,0 +1,29 @@
+﻿<Window x:Class="Calculator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="630" Width="500">
+    <Grid>
+        <Border Margin="5" Padding="5" Background="LightYellow" BorderBrush="SteelBlue" BorderThickness="3,5,3,5" CornerRadius="10" VerticalAlignment="Top" Height="130" Width="440">
+            <TextBlock Name="ShowNumText" Text="" Height="100" Width="450" VerticalAlignment="Top" FontSize="70" Margin="2,15,20,20" HorizontalAlignment="Right" FlowDirection="RightToLeft">
+            </TextBlock>
+        </Border>
+        <UniformGrid Rows="4" Columns="4" Height="400" Width="450" Margin="5,160,6,20">
+            <Button Name="btn1" Content="1" Style="{StaticResource MyWpfButton}" FontSize="35"/>
+            <Button Name="btn2" Content="2" Style="{StaticResource MyWpfButton}" FontSize="35"/>
+            <Button Name="btn3" Content="3" Style="{StaticResource MyWpfButton}" FontSize="35"/>
+            <Button Name="btnD" Content="/" Style="{StaticResource MyWpfButton}" FontSize="35"/>
+            <Button Name="btn4" Content="4" Style="{StaticResource MyWpfButton}" FontSize="35"/>
+            <Button Name="btn5" Content="5" Style="{StaticResource MyWpfButton}" FontSize="35"/>
+            <Button Name="btn6" Content="6" Style="{StaticResource MyWpfButton}" FontSize="35"/>
+            <Button Name="btnX" Content="X" Style="{StaticResource MyWpfButton}" FontSize="35"/>
+            <Button Name="btn7" Content="7" Style="{StaticResource MyWpfButton}" FontSize="35"/>
+            <Button Name="btn8" Content="8" Style="{StaticResource MyWpfButton}" FontSize="35"/>
+            <Button Name="btn9" Content="9" Style="{StaticResource MyWpfButton}" FontSize="35"/>
+            <Button Name="btnM" Content="—" Style="{StaticResource MyWpfButton}" FontSize="35"/>
+            <Button Name="btnC" Content="C" Style="{StaticResource MyWpfButton}" FontSize="35"/>
+            <Button Name="btn0" Content="0" Style="{StaticResource MyWpfButton}" FontSize="35"/>
+            <Button Name="btnE" Content="=" Style="{StaticResource MyWpfButton}" FontSize="35"/>
+            <Button Name="btnP" Content="+" Style="{StaticResource MyWpfButton}" FontSize="35"/>
+        </UniformGrid>
+    </Grid>
+</Window>
